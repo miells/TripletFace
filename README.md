@@ -19,7 +19,8 @@ I changed the model's parameters to :
   - learning_rate : 5e-4
   
 After training this model, I obtained the following visualization :
-![VISUALISATION](TripletFace/tripletface/model/vizualisation_3.png)
+
+![VISUALISATION](model/vizualisation_3.png)
 
 The code for the JIT compile is in the notebook and the file containing it is in "TripletFace/model/scriptModel.pt".
 
