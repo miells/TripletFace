@@ -1,12 +1,30 @@
 Triplet loss for facial recognition.
 
-# Triplet Face
+# Triplet Face (Muriel LIN-SI)
 
 The repository contains code for the application of triplet loss training to the
 task of facial recognition. This code has been produced for a lecture and is not
 going to be maintained in any sort.
 
 ![TSNE_Latent](TSNE_Latent.png)
+
+## Work done
+
+I commited the Python notebook I worked on during this project. The name of the notebook is "TripletFace_Devoir_Muriel_LIN-SI.ipynb".
+
+I changed the model's parameters to :
+  - n_samples : 8
+  - batch_size : 16
+  - epoch : 4
+  - learning_rate : 5e-4
+  
+After training this model, I obtained the following visualization :
+[IMAGE]
+
+The code for the JIT compile is in the notebook and the file containing it is in "TripletFace/model/scriptModel.pt".
+
+However I couldn't manage to do the centroids and thresholds. I know that you have to do the average of the embeddings for the centroids and the standard deviation for the thresholds.
+
 
 ## Architecture
 
